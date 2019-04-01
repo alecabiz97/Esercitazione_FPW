@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-mar-2019, 9.35.23
+    Author     : AleCabiz
+*/
+/*Style */
+
+*{
+    box-sizing:border-box;
+    border-color: steelblue;
+}
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+    background-color: #333333;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+input {
+    background-color:antiquewhite;
+}
+
+input:focus {
+    background-color:salmon;
+    color: white;
+}
+
+a:visited {
+    color: red;
+}
+a:link {
+    color: white;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/*Layout */
+
+header {
+    border-width: medium;
+    border-style:solid;
+}
+
+#logodiv {
+    position: relative;
+    height: 200px;
+}
+
+.logoimg {
+    height: 100%;
+}
+
+
+#logotitle {
+    position: absolute;
+    display: inline;
+}
+
+nav ul li {
+    list-style: none;
+    border-radius: 20px;
+    border-style: solid;
+    padding:14px;
+    float: right;
+    
+}
+
+nav ul li:first-child {
+    width: 30%;
+}
+
+nav ul {
+    margin: 10px;
+    position: relative;
+}
+
+nav{
+    border-style: solid;
+    border-width: medium;
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
